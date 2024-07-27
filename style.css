@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --bg-color: #4484C0;
+    --second-bg-color: #EFF5FF;
+}
+.video-cluster {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color:var(--second-bg-color);
+}
+
+.video-item {
+    margin-bottom: 20px;
+}
+video[poster] {
+    object-fit: cover;
+}
+video{
+    height: 40.67vh;
+    width: 37.67vw;
+}
+img{
+    height: 6vh;
+    width: 8vw;
+}
+header , footer , button{
+    background-color:var(--bg-color);
+}
+h1{
+    color: var(--bg-color);
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+}
+
